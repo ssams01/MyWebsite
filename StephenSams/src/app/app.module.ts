@@ -6,6 +6,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ResumeComponent } from './resume/resume.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -13,7 +16,10 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ResumeComponent,
+    HobbiesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
