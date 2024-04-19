@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+    margin-bottom: 25pt;
+}
+
+header {
+    margin-bottom: 15pt;
+}
+
+.scrollbar {
+    max-height: 100vh;
+    overflow-y: auto;
+}
