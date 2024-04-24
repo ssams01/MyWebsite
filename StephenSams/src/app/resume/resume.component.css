@@ -1,12 +1,15 @@
-h1 {
-    text-align: center;
-}
-
-a {
-    text-align: center;
-}
 
 .scrollbar {
     max-height: 100vh;
     overflow-y: auto;
+}
+
+.resume-header {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+
+.resume-body {
+
 }
