@@ -1,17 +1,35 @@
+footer {
+   margin-top: 100px;
+   margin-left: 25px;
+}
+
 footer > a > img {
     height: 50pt;
     width: 70pt;
 }
 
+h1 {
+    margin-top: 20pt;
+    margin-bottom: 40pt;
+    text-align: center;
+}
+
 .content-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-container {
     flex: 1;
-    max-width: 300px; /* Adjust max-width as needed */
+    max-width: 400px; /* Adjust max-width as needed */
     word-wrap: break-word;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin-right: 90px; /* Adjust margin as needed */
+  
+}
+
+.text-container > h2 {
+    margin-bottom: 15px;
 }
 
 .image-container {
@@ -21,7 +39,7 @@ footer > a > img {
 .propic-align {
     border: 2px solid white;
     border-radius: 50%;
-    width: 200px; /* Adjust the width as needed */
+    width: 300px; /* Adjust the width as needed */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
 }
 
