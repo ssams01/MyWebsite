@@ -9,7 +9,12 @@
   border-bottom: 1px solid white;
 }
 
+.resume-header > a {
+  color: white;
+}
+
 
 .resume-body {
-
+   margin-left: 300px;
+   max-width: 1000px;
 }
