@@ -1,7 +1,3 @@
-div {
-    text-align: center;
-}
-
 .scrollbar {
     max-height: 100vh;
     overflow-y: auto;
@@ -11,9 +7,23 @@ div {
     display: block;
     /* border: 2px solid white; */
     padding: 10px;
-    margin: 15px; /* Add margin for spacing between containers */
-
+    margin: 15px; 
+    text-align: center;
 }
+
+.centered-text {
+    display: inline-block;
+    max-width: 57%; 
+    word-wrap: break-word; 
+    text-align: center; 
+}
+
+.div-border img {
+    display: block; 
+    margin: 0 auto; 
+}
+
+
 /* 
 .div-border > h2 {
     text-decoration: underline;
