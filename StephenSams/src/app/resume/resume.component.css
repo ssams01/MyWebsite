@@ -13,6 +13,15 @@
   color: white;
 }
 
+.job-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-info p {
+  margin: 0; /* Remove default paragraph margin */
+}
+
 
 .resume-body {
    margin-left: 300px;
